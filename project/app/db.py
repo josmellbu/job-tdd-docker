@@ -1,8 +1,7 @@
 # ../../project/app/db.py
 
-import os
 import logging
-
+import os
 
 from fastapi import FastAPI
 from tortoise import Tortoise, run_async
